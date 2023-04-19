@@ -20,8 +20,8 @@ rayon = "1.5.2"
 
 [dev-dependencies]
 ark-std = { version = "0.3", features = ["print-trace"] }
-eth-types = { git = "https://github.com/scroll-tech/zkevm-circuits", branch = "scroll-dev-1220" }
-zkevm-circuits = { git = "https://github.com/scroll-tech/zkevm-circuits", branch = "scroll-dev-1220", features = ["test"] }
+eth-types = { git = "https://github.com/scroll-tech/zkevm-circuits", branch = "scroll-dev-1115" }
+zkevm-circuits = { git = "https://github.com/scroll-tech/zkevm-circuits", branch = "scroll-dev-1115", features = ["test"] }
 
 [features]
 default = ["halo2"]
